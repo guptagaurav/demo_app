@@ -20,7 +20,7 @@ class MicropostsController < ApplicationController
       format.json { render json: @micropost }
     end
   end
-
+  
   # GET /microposts/new
   # GET /microposts/new.json
   def new
